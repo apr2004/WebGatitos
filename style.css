@@ -28,6 +28,8 @@ body {
 .container .tenor-gif-embed {
     display: flex;
     max-width: 200px;
+    border-radius: 16px;
+    overflow: clip;
 }
 
 .container .btn {
@@ -43,8 +45,4 @@ body {
     border-radius: 8px;
     box-shadow: 0.5rem 1rem 3rem hsl(0, 0, 0,0.3);
 
-}
-
-.tenor-gif-embed {
-    border-radius: 16px;
 }
